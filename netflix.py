@@ -7,7 +7,7 @@ st.title('Netflix data')
 st.subheader('Integrantes: Marcos Arturo Lopez Gonzalez')
 st.subheader('Jose Obed Mariano Hipolito ')
 
-DATA_URL = ('/content/movies.csv')
+DATA_URL = ('https://raw.githubusercontent.com/Marcos-Arturo-L-G/Netflix_tarea/master/movies.csv')
 
 @st.cache
 def load_data(nrows):
